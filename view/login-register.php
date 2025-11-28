@@ -1,4 +1,4 @@
-<?php include 'view/header.php'; ?>
+<?php require_once 'header.php'; ?>
 
 <main class="main">
   <!-- Page Title -->
@@ -7,7 +7,7 @@
       <h1 class="mb-2 mb-lg-0">Login</h1>
       <nav class="breadcrumbs">
         <ol>
-          <li><a href="../index.html">Home</a></li>
+          <li><a href="index.php">Home</a></li>
           <li class="current">Login</li>
         </ol>
       </nav>
@@ -116,5 +116,4 @@
   </section>
 </main>
 
-<?php include 'view/newsletter.php'; ?>
-<?php include 'view/footer.php'; ?>
+<?php require_once 'footer.php'; ?>

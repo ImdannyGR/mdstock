@@ -84,7 +84,7 @@
         <div class="d-flex py-3 align-items-center justify-content-between">
 
           <!-- Logo -->
-          <a href="index.html" class="logo d-flex align-items-center">
+          <a href="index.php" class="logo d-flex align-items-center">
             <!-- Uncomment the line below if you also wish to use an image logo -->
             <!-- <img src="assets/img/logo.webp" alt=""> -->
             <h1 class="sitename">MDSTOCK</h1>
@@ -137,8 +137,8 @@
                   </a>
                 </div>
                 <div class="dropdown-footer">
-                  <a href="login-register.html" class="btn btn-primary w-100 mb-2">Iniciar sesión</a>
-                  <a href="login-register.html" class="btn btn-outline-primary w-100">Registrarse</a>
+                  <a href="login-register.php" class="btn btn-primary w-100 mb-2">Iniciar sesión</a>
+                  <a href="login-register.php" class="btn btn-outline-primary w-100">Registrarse</a>
                 </div>
               </div>
             </div>
@@ -169,31 +169,138 @@
         <div class="position-relative">
           <nav id="navmenu" class="navmenu">
             <ul>
-              <li><a href="index.html" class="active">Inicio</a></li>
+              <li><a href="index.php" class="active">Inicio</a></li>
               <li><a href="about.html">Sobre nosotros</a></li>
-              <li><a href="category.html">Categorias</a></li>
+                <li><a href="category.php">Categorias</a></li>
               <li><a href="product-details.html">Detalles de los productos</a></li>
               <li><a href="cart.html">Carrito</a></li>
               <li><a href="checkout.html">Checkout</a></li>
-              <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Dropdown 1</a></li>
-                  <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+               <!-- Products Mega Menu 1 -->
+              <li class="products-megamenu-1"><a href="#"><span>Megamenu 1</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+
+                <!-- Products Mega Menu 1 Mobile View -->
+                <ul class="mobile-megamenu">
+
+                  <li><a href="#">Featured Products</a></li>
+                  <li><a href="#">New Arrivals</a></li>
+                  <li><a href="#">Sale Items</a></li>
+
+                  <li class="dropdown"><a href="#"><span>Clothing</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
                     <ul>
-                      <li><a href="#">Deep Dropdown 1</a></li>
-                      <li><a href="#">Deep Dropdown 2</a></li>
-                      <li><a href="#">Deep Dropdown 3</a></li>
-                      <li><a href="#">Deep Dropdown 4</a></li>
-                      <li><a href="#">Deep Dropdown 5</a></li>
+                      <li><a href="#">Men's Wear</a></li>
+                      <li><a href="#">Women's Wear</a></li>
+                      <li><a href="#">Kids Collection</a></li>
+                      <li><a href="#">Sportswear</a></li>
+                      <li><a href="#">Accessories</a></li>
                     </ul>
                   </li>
-                  <li><a href="#">Dropdown 2</a></li>
-                  <li><a href="#">Dropdown 3</a></li>
-                  <li><a href="#">Dropdown 4</a></li>
-                </ul>
-              </li>
 
-              <li><a href="contact.html">Contact</a></li>
+                  <li class="dropdown"><a href="#"><span>Electronics</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                    <ul>
+                      <li><a href="#">Smartphones</a></li>
+                      <li><a href="#">Laptops</a></li>
+                      <li><a href="#">Audio Devices</a></li>
+                      <li><a href="#">Smart Home</a></li>
+                      <li><a href="#">Accessories</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown"><a href="#"><span>Home &amp; Living</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                    <ul>
+                      <li><a href="#">Furniture</a></li>
+                      <li><a href="#">Decor</a></li>
+                      <li><a href="#">Kitchen</a></li>
+                      <li><a href="#">Bedding</a></li>
+                      <li><a href="#">Lighting</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown"><a href="#"><span>Beauty</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                    <ul>
+                      <li><a href="#">Skincare</a></li>
+                      <li><a href="#">Makeup</a></li>
+                      <li><a href="#">Haircare</a></li>
+                      <li><a href="#">Fragrances</a></li>
+                      <li><a href="#">Personal Care</a></li>
+                    </ul>
+                  </li>
+
+                </ul><!-- End Products Mega Menu 1 Mobile View -->
+
+                <!-- Products Mega Menu 1 Desktop View -->
+                <div class="desktop-megamenu">
+
+                  <div class="megamenu-tabs">
+                    <ul class="nav nav-tabs" id="productMegaMenuTabs" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="category-tab" data-bs-toggle="tab" data-bs-target="#category-content-1862" type="button" aria-selected="false" tabindex="-1" role="tab">Categories</button>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <!-- Tabs Content -->
+                  <div class="megamenu-content tab-content">
+
+                  
+                    <!-- Categories Tab -->
+                    <div class="tab-pane fade" id="category-content-1862" role="tabpanel" aria-labelledby="category-tab">
+                      <div class="category-grid">
+                        <div class="category-column">
+                          <h4>Bebidas</h4>
+                          <ul>
+                            <li><a href="#">Agua</a></li>
+                            <li><a href="#">Refrescos</a></li>
+                            <li><a href="#">Jugos</a></li>
+                            <li><a href="#">Energizantes</a></li>
+                            <li><a href="#">Cervezas</a></li>
+                            <li><a href="#">Vinos</a></li>
+                            <li><a href="#">Licores</a></li>
+                          </ul>
+                        </div>
+                        <div class="category-column">
+                          <h4>Despensa</h4>
+                          <ul>
+                            <li><a href="#">Arroz</a></li>
+                            <li><a href="#">Pastas</a></li>
+                            <li><a href="#">Aceites</a></li>
+                            <li><a href="#">Enlatados</a></li>
+                            <li><a href="#">Harinas</a></li>
+                            <li><a href="#">Salsas</a></li>
+                            <li><a href="#">Azúcar</a></li>
+                          </ul>
+                        </div>
+                        <div class="category-column">
+                          <h4>Snacks</h4>
+                          <ul>
+                            <li><a href="#">Papas fritas</a></li>
+                            <li><a href="#">Galletas</a></li>
+                            <li><a href="#">Frutos secos</a></li>
+                            <li><a href="#">Palomitas</a></li>
+                            <li><a href="#">Barritas</a></li>
+                            <li><a href="#">Chicharrones</a></li>
+                          </ul>
+                        </div>
+                        <div class="category-column">
+                          <h4>Dulcería</h4>
+                          <ul>
+                            <li><a href="#">Chocolates</a></li>
+                            <li><a href="#">Caramelos</a></li>
+                            <li><a href="#">Chicles</a></li>
+                            <li><a href="#">Gomitas</a></li>
+                            <li><a href="#">Paletas</a></li>
+                            <li><a href="#">Malvaviscos</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div><!-- End Products Mega Menu 1 Desktop View -->
+
+              </li><!
+              <li><a href="contact.php">Contact</a></li>
+
 
             </ul>
           </nav>
