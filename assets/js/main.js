@@ -960,4 +960,53 @@
     });
   });
 
+  document.addEventListener("DOMContentLoaded", () => {
+  
+  const translations = {
+    en: {
+      "nav_home": "Home",
+      "nav_about": "About Us",
+      "nav_products": "Products",
+      "nav_contact": "Contact",
+      "hero_title": "Welcome to MDStock",
+      "hero_sub": "High quality products for your business"
+    },
+    es: {
+      "nav_home": "Inicio",
+      "nav_about": "Nosotros",
+      "nav_products": "Productos",
+      "nav_contact": "Contacto",
+      "hero_title": "Bienvenido a MDStock",
+      "hero_sub": "Productos de alta calidad para tu negocio"
+    }
+  };
+
+  // Cambiar idioma al hacer clic
+  document.querySelectorAll(".change-lang").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const lang = btn.dataset.lang;
+      localStorage.setItem("lang", lang);
+      document.getElementById("current-lang").innerText = lang.toUpperCase();
+      applyTranslations(lang);
+    });
+  });
+
+  // Aplicar traducciones
+  function applyTranslations(lang) {
+    document.querySelectorAll("[data-translate]").forEach(el => {
+      const key = el.getAttribute("data-translate");
+      el.innerHTML = translations[lang][key];
+    });
+  }
+
+  // Mantener idioma guardado
+  const saved = localStorage.getItem("lang") || "en";
+  document.getElementById("current-lang").innerText = saved.toUpperCase();
+  applyTranslations(saved);
+
+});
+
+
+  
+
 })();
