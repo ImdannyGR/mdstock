@@ -32,7 +32,7 @@
           </div>
           <div class="col-lg-6 image-col" data-aos="fade-left" data-aos-delay="200">
             <div class="hero-image">
-              <img src="../assets/img/product/product-f-9.webp" alt="Fashion Product" class="main-product" loading="lazy">
+              <img src="../assets/img/person/foto-manu.png" alt="Fashion Product" class="main-product" loading="lazy">
               <div class="floating-product product-1" data-aos="fade-up" data-aos-delay="300">
                 <img src="../assets/img/product/Coca-Cola-Original-1.5-L-removebg-preview.png" alt="Product 2">
                 <div class="product-info">
