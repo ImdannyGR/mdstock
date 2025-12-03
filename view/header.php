@@ -25,6 +25,8 @@
   <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="/assets/vendor/drift-zoom/drift-basic.css" rel="stylesheet">
+  <!-- Font Awesome for password eye icon -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
   <link href="/assets/css/main.css" rel="stylesheet">
@@ -149,7 +151,7 @@
             </a>
 
             <!-- Cart -->
-            <a href="cart.html" class="header-action-btn">
+            <a href="cart.php" class="header-action-btn">
               <i class="bi bi-cart3"></i>
               <span class="badge">3</span>
             </a>
@@ -169,10 +171,10 @@
           <nav id="navmenu" class="navmenu">
             <ul>
               <li><a href="index.php" class="active">Inicio</a></li>
+              <li><a href="category.php">Categorias</a></li>
+              <li><a href="product-details.php">Detalles de los productos</a></li>
+              <li><a href="cart.php">Carrito</a></li>
               <li><a href="about.php">Sobre nosotros</a></li>
-                <li><a href="category.php">Categorias</a></li>
-              <li><a href="product-details.html">Detalles de los productos</a></li>
-              <li><a href="cart.html">Carrito</a></li>
               <li><a href="checkout.html">Checkout</a></li>
               <li><a href="contact.php">Contactanos</a></li>
             </ul>
@@ -186,7 +188,7 @@
       <div class="container">
         <form class="search-form">
           <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search for products">
+                  <input type="text" class="form-control" id="search-products-mobile" name="search-products-mobile" placeholder="Search for products">
             <button class="btn" type="submit">
               <i class="bi bi-search"></i>
             </button>
