@@ -61,9 +61,7 @@
 
     <div class="footer-bottom">
         <div class="legal-links">
-          <a href="tos.html">Terms of Service</a>
-          <a href="privacy.html">Privacy Policy</a>
-          <a href="tos.html">Cookies Settings</a>
+          <a href="privacy.php">Política de privacidad</a>
         </div>
 
         <div class="copyright text-center">
@@ -99,5 +97,4 @@
   <script src="/assets/js/login.js"></script>
 
 </body>
-
 </html>

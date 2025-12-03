@@ -5,13 +5,7 @@
     <!-- Page Title -->
     <div class="page-title light-background">
       <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Cart</h1>
-        <nav class="breadcrumbs">
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Cart</li>
-          </ol>
-        </nav>
+        <h1 class="mb-2 mb-lg-0">CARRITO</h1>
       </div>
     </div><!-- End Page Title -->
 
@@ -26,13 +20,13 @@
               <div class="cart-header d-none d-lg-block">
                 <div class="row align-items-center gy-4">
                   <div class="col-lg-6">
-                    <h5>Product</h5>
+                    <h5>ProductO</h5>
                   </div>
                   <div class="col-lg-2 text-center">
-                    <h5>Price</h5>
+                    <h5>Precio</h5>
                   </div>
                   <div class="col-lg-2 text-center">
-                    <h5>Quantity</h5>
+                    <h5>Cantidad</h5>
                   </div>
                   <div class="col-lg-2 text-center">
                     <h5>Total</h5>
@@ -50,12 +44,8 @@
                       </div>
                       <div class="product-details">
                         <h6 class="product-title">Lorem ipsum dolor sit amet</h6>
-                        <div class="product-meta">
-                          <span class="product-color">Color: Black</span>
-                          <span class="product-size">Size: M</span>
-                        </div>
                         <button class="remove-item" type="button">
-                          <i class="bi bi-trash"></i> Remove
+                          <i class="bi bi-trash"></i> Eliminar
                         </button>
                       </div>
                     </div>
@@ -94,12 +84,8 @@
                       </div>
                       <div class="product-details">
                         <h6 class="product-title">Consectetur adipiscing elit</h6>
-                        <div class="product-meta">
-                          <span class="product-color">Color: White</span>
-                          <span class="product-size">Size: L</span>
-                        </div>
                         <button class="remove-item" type="button">
-                          <i class="bi bi-trash"></i> Remove
+                          <i class="bi bi-trash"></i> Eliminar
                         </button>
                       </div>
                     </div>
@@ -139,12 +125,8 @@
                       </div>
                       <div class="product-details">
                         <h6 class="product-title">Sed do eiusmod tempor</h6>
-                        <div class="product-meta">
-                          <span class="product-color">Color: Blue</span>
-                          <span class="product-size">Size: S</span>
-                        </div>
                         <button class="remove-item" type="button">
-                          <i class="bi bi-trash"></i> Remove
+                          <i class="bi bi-trash"></i> Eliminar
                         </button>
                       </div>
                     </div>
@@ -178,17 +160,17 @@
                   <div class="col-lg-6 col-md-6">
                     <div class="coupon-form">
                       <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Coupon code">
-                        <button class="btn btn-accent" type="button">Apply</button>
+                        <input type="text" class="form-control" placeholder="Código de cupón">
+                        <button class="btn btn-accent" type="button">Aplicar</button>
                       </div>
                     </div>
                   </div>
                   <div class="col-lg-6 col-md-6 text-md-end">
                     <button class="btn btn-outline-accent me-2">
-                      <i class="bi bi-arrow-clockwise"></i> Update
+                      <i class="bi bi-arrow-clockwise"></i> Actualizar
                     </button>
                     <button class="btn btn-outline-danger">
-                      <i class="bi bi-trash"></i> Clear
+                      <i class="bi bi-trash"></i> Limpiar
                     </button>
                   </div>
                 </div>
@@ -198,7 +180,7 @@
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
             <div class="cart-summary">
-              <h4 class="summary-title">Order Summary</h4>
+              <h4 class="summary-title">Resumen del Pedido</h4>
 
               <div class="summary-item">
                 <span class="summary-label">Subtotal</span>
@@ -206,36 +188,36 @@
               </div>
 
               <div class="summary-item shipping-item">
-                <span class="summary-label">Shipping</span>
+                <span class="summary-label">Envío</span>
                 <div class="shipping-options">
                   <div class="form-check">
                     <input class="form-check-input" type="radio" name="shipping" id="standard" checked="">
                     <label class="form-check-label" for="standard">
-                      Standard Delivery - $4.99
+                      Envío Estándar - $4.99
                     </label>
                   </div>
                   <div class="form-check">
                     <input class="form-check-input" type="radio" name="shipping" id="express">
                     <label class="form-check-label" for="express">
-                      Express Delivery - $12.99
+                      Envío Exprés - $12.99
                     </label>
                   </div>
                   <div class="form-check">
                     <input class="form-check-input" type="radio" name="shipping" id="free">
                     <label class="form-check-label" for="free">
-                      Free Shipping (Orders over $300)
+                      Envío Gratis (Pedidos superiores a $50.000)
                     </label>
                   </div>
                 </div>
               </div>
 
               <div class="summary-item">
-                <span class="summary-label">Tax</span>
+                <span class="summary-label">Impuesto</span>
                 <span class="summary-value">$27.00</span>
               </div>
 
               <div class="summary-item discount">
-                <span class="summary-label">Discount</span>
+                <span class="summary-label">Descuento</span>
                 <span class="summary-value">-$0.00</span>
               </div>
 
@@ -246,25 +228,14 @@
 
               <div class="checkout-button">
                 <a href="#" class="btn btn-accent w-100">
-                  Proceed to Checkout <i class="bi bi-arrow-right"></i>
+                  Proceder al Pago <i class="bi bi-arrow-right"></i>
                 </a>
               </div>
 
               <div class="continue-shopping">
                 <a href="#" class="btn btn-link w-100">
-                  <i class="bi bi-arrow-left"></i> Continue Shopping
+                  <i class="bi bi-arrow-left"></i> Continuar Comprando
                 </a>
-              </div>
-
-              <div class="payment-methods">
-                <p class="payment-title">We Accept</p>
-                <div class="payment-icons">
-                  <i class="bi bi-credit-card-2-front"></i>
-                  <i class="bi bi-paypal"></i>
-                  <i class="bi bi-wallet2"></i>
-                  <i class="bi bi-apple"></i>
-                  <i class="bi bi-google"></i>
-                </div>
               </div>
             </div>
           </div>
