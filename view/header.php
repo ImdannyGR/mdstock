@@ -70,9 +70,9 @@
                 }
               </script>
               <div class="swiper-wrapper">
-                <div class="swiper-slide">🚚 Free shipping on orders over $50</div>
-                <div class="swiper-slide">💰 30 days money back guarantee.</div>
-                <div class="swiper-slide">🎁 20% off on your first order</div>
+                <div class="swiper-slide">🚚 envío gratis después de $50.000</div>
+                <div class="swiper-slide">💰 Garantía de devolución de dinero de 30 días.</div>
+                <div class="swiper-slide">🎁 20% de descuento en tu primer pedido</div>
               </div>
             </div>
           </div>
@@ -87,7 +87,7 @@
 
           <!-- Logo -->
           <a href="index.php" class="logo d-flex align-items-center">
-           <!--<img src="../../assets/img/logo-mdstock.png" alt="MDSTOCK Logo" width="500" height="500">-->
+          <!--  <img src="../../assets/img/logo-mdstock.png" alt="MDSTOCK Logo" width="500" height="500">-->
             <h1 class="sitename">MDSTOCK</h1>
           </a>
 
@@ -120,19 +120,19 @@
                   <p class="mb-0">Accede a tu cuenta  &amp;  gestiona tus pedidos</p>
                 </div>
                 <div class="dropdown-body">
-                  <a class="dropdown-item d-flex align-items-center" href="account.html">
+                  <a class="dropdown-item d-flex align-items-center" href="account.php">
                     <i class="bi bi-person-circle me-2"></i>
                     <span>Mi perffil</span>
                   </a>
-                  <a class="dropdown-item d-flex align-items-center" href="account.html">
+                  <a class="dropdown-item d-flex align-items-center" href="account.php">
                     <i class="bi bi-bag-check me-2"></i>
                     <span>Mis ordenes</span>
                   </a>
-                  <a class="dropdown-item d-flex align-items-center" href="account.html">
+                  <a class="dropdown-item d-flex align-items-center" href="account.php">
                     <i class="bi bi-heart me-2"></i>
                     <span>Mi lista de deseos</span>
                   </a>
-                  <a class="dropdown-item d-flex align-items-center" href="account.html">
+                  <a class="dropdown-item d-flex align-items-center" href="account.php">
                     <i class="bi bi-gear me-2"></i>
                     <span>Configuración</span>
                   </a>
@@ -143,12 +143,6 @@
                 </div>
               </div>
             </div>
-
-            <!-- Wishlist -->
-            <a href="account.html" class="header-action-btn d-none d-md-block">
-              <i class="bi bi-heart"></i>
-              <span class="badge">0</span>
-            </a>
 
             <!-- Cart -->
             <a href="cart.php" class="header-action-btn">
@@ -175,7 +169,7 @@
               <li><a href="product-details.php">Detalles de los productos</a></li>
               <li><a href="cart.php">Carrito</a></li>
               <li><a href="about.php">Sobre nosotros</a></li>
-              <li><a href="checkout.html">Checkout</a></li>
+              <li><a href="checkout.php">Pagar</a></li>
               <li><a href="contact.php">Contactanos</a></li>
             </ul>
           </nav>
