@@ -85,15 +85,14 @@
 
           <!-- Logo -->
           <a href="index.php" class="logo d-flex align-items-center">
-            <!-- Uncomment the line below if you also wish to use an image logo -->
-            <!-- <img src="assets/img/logo.webp" alt=""> -->
+           <!--<img src="../../assets/img/logo-mdstock.png" alt="MDSTOCK Logo" width="500" height="500">-->
             <h1 class="sitename">MDSTOCK</h1>
           </a>
 
           <!-- Search -->
           <form class="search-form desktop-search-form">
             <div class="input-group">
-              <input type="text" class="form-control" placeholder="Search for products">
+              <input type="text" class="form-control" placeholder="Buscar productos">
               <button class="btn" type="submit">
                 <i class="bi bi-search"></i>
               </button>

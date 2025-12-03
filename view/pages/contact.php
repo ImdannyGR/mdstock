@@ -5,13 +5,7 @@
     <!-- Page Title -->
     <div class="page-title light-background">
       <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Contact</h1>
-        <nav class="breadcrumbs">
-          <ol>
-            <li><a href="index.php">Home</a></li>
-            <li class="current">Contact</li>
-          </ol>
-        </nav>
+        <h1 class="mb-2 mb-lg-0">Contacto</h1>
       </div>
     </div><!-- End Page Title -->
 
@@ -25,7 +19,7 @@
           <div class="col-lg-6">
             <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
               <i class="bi bi-geo-alt"></i>
-              <h3>Address</h3>
+              <h3>Dirección</h3>
               <p>A108 Adam Street, New York, NY 535022</p>
             </div>
           </div><!-- End Info Item -->
@@ -33,7 +27,7 @@
           <div class="col-lg-3 col-md-6">
             <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
               <i class="bi bi-telephone"></i>
-              <h3>Call Us</h3>
+              <h3>Llámanos</h3>
               <p>+1 5589 55488 55</p>
             </div>
           </div><!-- End Info Item -->
@@ -41,7 +35,7 @@
           <div class="col-lg-3 col-md-6">
             <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
               <i class="bi bi-envelope"></i>
-              <h3>Email Us</h3>
+              <h3>Correo Electrónico</h3>
               <p>info@example.com</p>
             </div>
           </div><!-- End Info Item -->
@@ -50,7 +44,7 @@
 
         <div class="row gy-4 mt-1">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 400px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.174209982893!2d-73.6159!3d8.3086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e5e4f7e9b8b4b4b%3A0x8e5e4f7e9b8b4b4b!2sAguachica%2C%20Cesar%2C%20Colombia!5e0!3m2!1ses!2sco!4v1733170000000!5m2!1ses!2sco" frameborder="0" style="border:0; width: 100%; height: 400px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div><!-- End Google Maps -->
 
           <div class="col-lg-6">
